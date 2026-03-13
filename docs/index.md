@@ -1,0 +1,3 @@
+## What is it?
+
+**Mango Framework** is my take on creating a professional and feature full, but still easy to use, framework for handling all the scripts you need in creating experiences on *Roblox*. While it might be similar to others, this framework is adapted to my style of programming on this platform. It has been revised over multiple years to handle anything you might need in a game. It's functionality is kept at a pretty bare-bones level to fit universally to all types of experiences.
