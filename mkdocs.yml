@@ -1,11 +1,14 @@
 site_name: Mango Framework Documentation
 site_url: https://example.com
+repo_url: https://github.com/MarkoGasta/Mango-Framework
+repo_name: Mango-Framework
+
 theme:
   name: material
   palette: 
     scheme: slate
     primary: orange
-    accent: deep orange
+    accent: yellow
   font:
     text: Roboto
     code: Roboto Mono
@@ -16,16 +19,41 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
+    - navigation.path
+    - navigation.footer
+    - content.code.copy
     - toc.follow
 
 nav:
-  - Home: index.md
+  - Home: 
+    - Welcome: index.md
+    - Features: home/features.md
+
+  - Install:
+    - From Source: install/from_source.md
+    - From Place: install/from_place.md
+  - Usage:
+    - Top-Level Layout: usage/layout.md
+  - Docs:
+    - Internal:
+      - ReplicatedStorage:
+        - Controllers: docs/internal/replicatedstorage/controllers.md
+        
+  - About: about.md
 
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
