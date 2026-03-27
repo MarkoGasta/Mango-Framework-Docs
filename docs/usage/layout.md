@@ -1,5 +1,5 @@
 # Top Level Layout
-The top level layout of Mango Framework takes inspiration from Roblox services. Each script is a descendant of the folder you can find it in in-studio.
+The top level layout of Mango Framework takes inspiration from Roblox services. Each script is a descendant of the folder you can find in studio.
 
 ```mermaid
 graph LR

@@ -37,7 +37,9 @@ nav:
   - Docs:
     - Internal:
       - ReplicatedStorage:
-        - Controllers: docs/internal/replicatedstorage/controllers.md
+        - MangoClient: docs/internal/ReplicatedStorage/mango_client.md
+        - Controllers: docs/internal/ReplicatedStorage/controllers.md
+        - MangoControllers: docs/internal/ReplicatedStorage/mango_controllers.md
         
   - About: about.md
 
