@@ -34,14 +34,28 @@ nav:
     - From Place: install/from_place.md
   - Usage:
     - Top-Level Layout: usage/layout.md
+    - Creating a Service: usage/creating_service.md
+    - Creating a Controller: usage/creating_controller.md
+    - Managing Priorities: usage/set_priorities.md
+    - Connecting Modules: usage/connecting_modules.md
   - Docs:
     - Internal:
       - ReplicatedStorage:
-        - MangoClient: docs/internal/ReplicatedStorage/mango_client.md
         - Controllers: docs/internal/ReplicatedStorage/controllers.md
+        - Resources: docs/internal/ReplicatedStorage/resources.md
+        - Settings: docs/internal/ReplicatedStorage/settings.md
+        - MangoClient: docs/internal/ReplicatedStorage/mango_client.md
         - MangoControllers: docs/internal/ReplicatedStorage/mango_controllers.md
+        - MangoResources: docs/internal/ReplicatedStorage/mango_resources.md
+      - ServerStorage:
+        - Services: docs/internal/ServerStorage/services.md
+        - Resources: docs/internal/ServerStorage/resources.md
+        - MangoServer: docs/internal/ServerStorage/mango_server.md
+        - MangoServices: docs/internal/ServerStorage/mango_services.md
+        - MangoResources: docs/internal/ServerStorage/mango_resources.md
         
-  - About: about.md
+  - About:  
+    - Faq: about/faq.md
 
 markdown_extensions:
   - pymdownx.highlight:

@@ -3,6 +3,7 @@
 Theres tons of useful features in **Mango Framework**. All of them have, at one time, been used in practice. Features are constantly developing and improving. Suggestions for additional features are open.
 
 ## Behavior Features
+- One-script runtime.
 - Sequential module loading.
 - Server loading priority (server always loads fully first)
 

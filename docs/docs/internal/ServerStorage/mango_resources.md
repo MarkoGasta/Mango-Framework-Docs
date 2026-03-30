@@ -1,0 +1,1 @@
+Shares the functionality with [MangoResources](../../ReplicatedStorage/mango_resources) in ReplicatedStorage. Though it only contains resources available on the server.
