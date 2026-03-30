@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://example.com/usage/layout/">
+        <link rel="canonical" href="https://example.com/usage/set_priorities/">
       
       
-        <link rel="prev" href="../../install/from_place/">
+        <link rel="prev" href="../creating_controller/">
       
       
-        <link rel="next" href="../creating_service/">
+        <link rel="next" href="../connecting_modules/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Top-Level Layout - Mango Framework Documentation</title>
+        <title>Managing Priorities - Mango Framework Documentation</title>
       
     
     
@@ -73,11 +73,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#top-level-layout" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -109,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Top-Level Layout
+              Managing Priorities
             
           </span>
         </div>
@@ -236,7 +231,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../layout/" class="md-tabs__link">
           
   
   
@@ -656,19 +651,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../layout/" class="md-nav__link">
         
   
   
@@ -684,7 +670,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -750,10 +735,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../set_priorities/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -769,6 +761,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1490,8 +1483,6 @@
   
   
   
-    
-  
   
 </nav>
                   </div>
@@ -1517,15 +1508,18 @@
   
 
 
-<h1 id="top-level-layout">Top Level Layout</h1>
-<p>The top level layout of Mango Framework takes inspiration from Roblox services. Each script is a descendant of the folder you can find in studio.</p>
-<pre class="mermaid"><code>graph LR
-    src[src] --&gt; rs[ReplicatedStorage]
-    src --&gt; sss[ServerScriptService]
-    src --&gt; ss[ServerStorage]
-    src --&gt; sps[StarterPlayerService]
-    sps --&gt; spls[StarterPlayerScripts]
-    sps --&gt; schs[StarterCharacterScripts]</code></pre>
+  <h1>Managing Priorities</h1>
+
+<p>Priorities of controllers and services can be changed. This means you can change the order in which they get constructed and initialized. This allows you to, with even higher precision, control which modules have access to what code.</p>
+<p>The priorities of modules can be set in the <strong>src/ReplicatedStorage/Settings/RuntimeSettings.luau</strong> file.</p>
+<p>There are two fields in this file:</p>
+<div class="language-luau highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nv">CONTROLLER_PRIORITIES</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">[</span><span class="nc">string</span><span class="p">]:</span><span class="w"> </span><span class="nc">number</span><span class="w"> </span><span class="p">}</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nv">SERVICE_PRIORITIES</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">[</span><span class="nc">string</span><span class="p">]:</span><span class="w"> </span><span class="nc">number</span><span class="w"> </span><span class="p">}</span>
+</span></code></pre></div>
+<p>Each field is a dictionary which has the module name as the key and the priority as the value.
+Next to those, there is also a field which holds the value all modules will default to if not specified.</p>
+<div class="language-luau highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nv">DEFAULT_PRIORITY</span><span class="p">:</span><span class="w"> </span><span class="nc">number</span>
+</span></code></pre></div>
 
 
 
@@ -1555,7 +1549,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../install/from_place/" class="md-footer__link md-footer__link--prev" aria-label="Previous: From Place">
+          <a href="../creating_controller/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Creating a Controller">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1565,20 +1559,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                From Place
+                Creating a Controller
               </div>
             </div>
           </a>
         
         
           
-          <a href="../creating_service/" class="md-footer__link md-footer__link--next" aria-label="Next: Creating a Service">
+          <a href="../connecting_modules/" class="md-footer__link md-footer__link--next" aria-label="Next: Connecting Modules">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Creating a Service
+                Connecting Modules
               </div>
             </div>
             <div class="md-footer__button md-icon">

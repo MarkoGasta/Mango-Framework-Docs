@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://example.com/usage/layout/">
+        <link rel="canonical" href="https://example.com/usage/creating_service/">
       
       
-        <link rel="prev" href="../../install/from_place/">
+        <link rel="prev" href="../layout/">
       
       
-        <link rel="next" href="../creating_service/">
+        <link rel="next" href="../creating_controller/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Top-Level Layout - Mango Framework Documentation</title>
+        <title>Creating a Service - Mango Framework Documentation</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#top-level-layout" class="md-skip">
+        <a href="#creating-a-service" class="md-skip">
           Skip to content
         </a>
       
@@ -109,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Top-Level Layout
+              Creating a Service
             
           </span>
         </div>
@@ -236,7 +236,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../layout/" class="md-tabs__link">
           
   
   
@@ -656,19 +656,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../layout/" class="md-nav__link">
         
   
   
@@ -684,7 +675,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -694,10 +684,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../creating_service/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creating a Service
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -713,6 +730,48 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#where" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1493,6 +1552,36 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#where" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1517,15 +1606,16 @@
   
 
 
-<h1 id="top-level-layout">Top Level Layout</h1>
-<p>The top level layout of Mango Framework takes inspiration from Roblox services. Each script is a descendant of the folder you can find in studio.</p>
-<pre class="mermaid"><code>graph LR
-    src[src] --&gt; rs[ReplicatedStorage]
-    src --&gt; sss[ServerScriptService]
-    src --&gt; ss[ServerStorage]
-    src --&gt; sps[StarterPlayerService]
-    sps --&gt; spls[StarterPlayerScripts]
-    sps --&gt; schs[StarterCharacterScripts]</code></pre>
+<h1 id="creating-a-service">Creating a Service</h1>
+<h2 id="where">Where?</h2>
+<p>Services are located in the <strong>src/ServerStorage/Services</strong> folder.</p>
+<h2 id="how">How?</h2>
+<ol>
+<li>Create a ModuleScript.</li>
+<li>Name it for whatever you need.</li>
+<li>Add the <a href="../../docs/internal/ServerStorage/services/#service-structure-template">necessary functions</a>.</li>
+<li>Thats it!</li>
+</ol>
 
 
 
@@ -1555,7 +1645,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../install/from_place/" class="md-footer__link md-footer__link--prev" aria-label="Previous: From Place">
+          <a href="../layout/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Top-Level Layout">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1565,20 +1655,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                From Place
+                Top-Level Layout
               </div>
             </div>
           </a>
         
         
           
-          <a href="../creating_service/" class="md-footer__link md-footer__link--next" aria-label="Next: Creating a Service">
+          <a href="../creating_controller/" class="md-footer__link md-footer__link--next" aria-label="Next: Creating a Controller">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Creating a Service
+                Creating a Controller
               </div>
             </div>
             <div class="md-footer__button md-icon">
