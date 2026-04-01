@@ -865,6 +865,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#where-to-require-the-modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where to require the modules?
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1632,6 +1643,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#where-to-require-the-modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where to require the modules?
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1681,6 +1703,9 @@
 </span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="kd">local</span><span class="w"> </span><span class="nv">ServiceB</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">MangoServer</span><span class="p">.</span><span class="nf">Require</span><span class="p">(</span><span class="s2">&quot;ServiceB&quot;</span><span class="p">)</span>
 </span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="kd">local</span><span class="w"> </span><span class="nv">Utils</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">MangoServer</span><span class="p">.</span><span class="nf">Require</span><span class="p">(</span><span class="s2">&quot;Utils&quot;</span><span class="p">)</span>
 </span></code></pre></div>
+<h2 id="where-to-require-the-modules">Where to require the modules?</h2>
+<p>The module requires should be done inside the construct function of each module.</p>
+<p>This allows the required module to be used anywhere you need it without extra steps.</p>
 
 
 
