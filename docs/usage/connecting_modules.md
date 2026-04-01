@@ -25,3 +25,8 @@ local MangoServer = require(ServerStorage.MangoServer)
 local ServiceB = MangoServer.Require("ServiceB")
 local Utils = MangoServer.Require("Utils")
 ```
+
+## Where to require the modules?
+The module requires should be done inside the construct function of each module.
+
+This allows the required module to be used anywhere you need it without extra steps.
