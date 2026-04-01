@@ -54,6 +54,10 @@ nav:
         - MangoServer: docs/internal/ServerStorage/mango_server.md
         - MangoServices: docs/internal/ServerStorage/mango_services.md
         - MangoResources: docs/internal/ServerStorage/mango_resources.md
+    - Branches:
+      - Main: docs/branches/main.md
+      - Barebones: docs/branches/barebones.md
+      - Dev: docs/branches/dev.md
         
   - About:  
     - Faq: about/faq.md

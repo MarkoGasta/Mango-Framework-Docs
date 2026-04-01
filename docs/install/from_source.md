@@ -4,7 +4,7 @@ Installing **Mango Framework** from source gives you the greatest amount of flex
 
 ## Downloading
 ### Directly from Github
-1. Choosing a branch lets you pick what features will come with your download of **Mango Framework**. Each branch has a different set of [branch features]().
+1. Choosing a branch lets you pick what features will come with your download of **Mango Framework**. Each branch has a different set of [branch features](../../docs/branches/main).
 ![Image title](./pick_branch.png)
 
 2. Press the Code button in the top right of the repository.
