@@ -2,86 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://example.com/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/about/faq/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/docs/internal/ReplicatedStorage/controllers/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/docs/internal/ReplicatedStorage/mango_client/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/docs/internal/ReplicatedStorage/mango_controllers/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/docs/internal/ReplicatedStorage/mango_resources/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/docs/internal/ReplicatedStorage/resources/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/docs/internal/ReplicatedStorage/settings/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/docs/internal/ServerStorage/mango_resources/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/docs/internal/ServerStorage/mango_server/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/docs/internal/ServerStorage/mango_services/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/docs/internal/ServerStorage/resources/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/docs/internal/ServerStorage/services/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/home/features/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/install/from_place/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/install/from_source/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/usage/connecting_modules/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/usage/creating_controller/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/usage/creating_service/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
+    </url>
+    <url>
+         <loc>https://example.com/usage/language_server/</loc>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/usage/layout/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
          <loc>https://example.com/usage/set_priorities/</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
     </url>
 </urlset>
