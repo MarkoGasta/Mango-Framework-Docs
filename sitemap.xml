@@ -9,6 +9,18 @@
          <lastmod>2026-04-01</lastmod>
     </url>
     <url>
+         <loc>https://example.com/docs/branches/barebones/</loc>
+         <lastmod>2026-04-01</lastmod>
+    </url>
+    <url>
+         <loc>https://example.com/docs/branches/dev/</loc>
+         <lastmod>2026-04-01</lastmod>
+    </url>
+    <url>
+         <loc>https://example.com/docs/branches/main/</loc>
+         <lastmod>2026-04-01</lastmod>
+    </url>
+    <url>
          <loc>https://example.com/docs/integrated/coming_soon/</loc>
          <lastmod>2026-04-01</lastmod>
     </url>
