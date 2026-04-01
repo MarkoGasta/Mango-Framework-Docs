@@ -38,6 +38,7 @@ nav:
     - Creating a Controller: usage/creating_controller.md
     - Managing Priorities: usage/set_priorities.md
     - Connecting Modules: usage/connecting_modules.md
+    - Language Server: usage/language_server.md
   - Docs:
     - Internal:
       - ReplicatedStorage:
